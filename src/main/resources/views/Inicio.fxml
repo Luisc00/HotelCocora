@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
 
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hotel.Controller.InicioController">
+   <children>
+      <Label layoutX="269.0" layoutY="30.0" prefHeight="17.0" prefWidth="196.0" text="Bienvenido al portal Hotel Cocora" />
+      <Label layoutX="100.0" layoutY="224.0" prefHeight="45.0" prefWidth="111.0" text="Administrador" />
+      <Label layoutX="515.0" layoutY="224.0" prefHeight="45.0" prefWidth="111.0" text="Cliente" />
+      <Button fx:id="btnIngresarAdmin" layoutX="29.0" layoutY="321.0" mnemonicParsing="false" onAction="#ingresarAdminEvent" prefHeight="32.0" prefWidth="71.0" text="Ingresar" />
+      <Button fx:id="btnIngresarCliente" layoutX="456.0" layoutY="328.0" mnemonicParsing="false" onAction="#ingresarClienteEvent" text="Ingresar" />
+      <Button fx:id="btnRegistraseCliente" layoutX="555.0" layoutY="329.0" mnemonicParsing="false" onAction="#registrarseClienteEvent" text="Registarse" />
+      <Button fx:id="btnRegistrarseAdmin" layoutX="171.0" layoutY="325.0" mnemonicParsing="false" onAction="#registrarseClienteEvent" prefHeight="32.0" prefWidth="80.0" text="Registarse" />
+   </children>
 </AnchorPane>

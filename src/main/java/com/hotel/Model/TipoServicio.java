@@ -1,2 +1,3 @@
-package com.hotel.Model;public enum TipoServicio {
+package com.hotel.Model;
+public enum TipoServicio {
 }

@@ -1,2 +1,5 @@
-package com.hotel.Model;public enum Estado {
+package com.hotel.Model;
+ public enum Estado {
+  mantenimiento,
+  operacion;
 }
