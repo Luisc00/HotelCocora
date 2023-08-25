@@ -3,6 +3,8 @@ module com.mihotel.hotelcocora {
     requires javafx.fxml;
             
                             
-    opens com.mihotel.hotelcocora to javafx.fxml;
-    exports com.mihotel.hotelcocora;
+    opens com.hotel.Controller to javafx.fxml;
+    exports com.hotel.Controller;
+    exports com.hotel.Application;
+    opens com.hotel.Application to javafx.fxml;
 }
